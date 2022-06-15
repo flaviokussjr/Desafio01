@@ -1,0 +1,183 @@
+
+
+:root {
+    --color-primary: #13193d;
+    --color-secondary: #8a898e;
+    
+
+}
+
+
+* {
+    padding: 10px;
+    margin: 0%;
+}
+
+
+
+body {
+    background-color: #f8f9fe;
+    
+    
+}
+
+ /*******************
+*      HEADER
+********************/
+
+.home {
+    
+    padding: 30px;
+    height: 50vh;
+    width: 60vh;
+    display: block;
+        
+}
+
+
+
+.tittle {
+    color: var(--color-secondary)
+}
+
+.skill {
+    color: var(--color-primary);
+}
+
+
+
+.tittle .H1 {
+    color: var(--color-primary);
+    position: relative;
+    font-size: 40px;
+}
+
+.home .tittle #Button {
+    padding: 15px;
+    border-radius: 35% 40% 35% 40%;
+    background:linear-gradient(0deg, rgba(240,45,163,1) 0%, rgba(248,80,113,1) 35%, rgba(255,108,75,1) 100%);
+     color: white;
+}
+
+.home .photo {
+    height: 50vh;
+    width: 100vh;
+    margin-left: 1477px;
+    margin-top: -440px;
+}
+
+/***********
+*   ABOUT
+************/
+
+.services {
+    padding: 100px 0;
+    text-align: center;
+    background-color: var(--color-primary-light);
+}
+
+.services h2 {
+    color: var(--color-secondary);
+    font-weight: 400;
+    font-size: 50px;
+}
+
+.services .boxes {
+    display: flex;
+    justify-content: space-between; 
+    
+}
+
+.services .box {
+   
+    padding: 40px 30px;
+    margin: 20px;
+    border-radius: 10%;
+    background-color: white;
+}
+
+.services .box h4 {
+   
+    margin-top: 20px;
+}
+
+.services .box p {
+    margin-top: 20px;
+    line-height: 25px;
+}
+
+.services .boxes .content {
+    color: var(--color-secondary);
+}
+
+.services .boxes .tittle {
+    color: var(--color-primary);
+    font-size: 30px;
+    align-items: left;
+    display: flex;
+}
+
+.services .boxes #check {
+    background:linear-gradient(0deg, rgba(240,45,163,1) 0%, rgba(248,80,113,1) 35%, rgba(255,108,75,1) 100%);
+    color: white;
+    font-size: 30px;
+    text-align: left;    
+}
+
+.services .boxes .img_animation {
+    margin-top: -370px;
+    margin-left: -600px;
+    height: 80px;
+}
+.services .boxes .img_design {
+
+    margin-top: -370px;
+    margin-left: -560px;
+    height: 80px;
+}
+
+.services .boxes .img_photo{
+    margin-top: -370px;
+    margin-left: -450px;
+    height: 80px;
+}
+.services .boxes .img_crypto{
+    margin-top: -370px;
+    margin-left: -400px;
+    height: 80px;
+}
+
+.services .boxes .img_business {
+    margin-top: -370px;
+    margin-left: -330px;
+    height: 80px
+}
+    
+
+ /************
+*  FOOTER
+*************/
+
+
+.footer {
+    background-color: #13183e;
+    color: white;
+    padding: 20px;
+    margin: 10px;
+    text-align: left;
+    font-size:25px;
+    display: block;
+}
+
+.footer #get {
+    background: rgb(174,56,204);
+    background: linear-gradient(0deg, rgba(174,56,204,1) 0%, rgba(228,46,167,1) 0%, rgba(143,63,220,1) 64%);
+    color: white;
+    font-size: 15px;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 35% 40% 35% 40%;
+    display: flex;
+    align-items: right;
+
+}
